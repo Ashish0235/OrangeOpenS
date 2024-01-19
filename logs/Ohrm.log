@@ -1,0 +1,6 @@
+11:32:42.624 [main]INFO  Orange-HRM - Edge browser launched
+11:32:48.785 [main]INFO  Orange-HRM - ---------Login Test started----------
+11:32:49.257 [main]INFO  Orange-HRM - Entered username
+11:32:49.370 [main]INFO  Orange-HRM - Entered password
+11:32:50.693 [main]INFO  Orange-HRM - Login successful
+11:32:50.693 [main]INFO  Orange-HRM - ---------Login Test Ended----------
