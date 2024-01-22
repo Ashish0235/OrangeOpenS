@@ -5,8 +5,10 @@
     <classes>
       <class name="testClassess.LoginTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="mainBeforeTestMethod"/>
           <include name="login"/>
         </methods>
       </class> <!-- testClassess.LoginTest -->
