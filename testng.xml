@@ -7,9 +7,9 @@
 	<test thread-count="5" name="TestwithChrome">
 		<parameter name="browser" value="edge"></parameter>
 		<classes>
-			<!-- <class name="testClassess.LoginTest" />-->
-			 <class name="testClassess.DashboardTest"/>
 			
+			<class name="testClassess.DashboardTest" />
+
 		</classes>
 	</test> <!--
 	Test1 -->
