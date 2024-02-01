@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -35,6 +36,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import configFiles.ReadConfig;
+import pageObjects.LoginPage;
 
 public class BaseTest {
 
@@ -93,6 +95,8 @@ public class BaseTest {
 
 		driver.navigate().to(prop.getBaseUrl());
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		LoginPage first = new LoginPage();
+		first.loginpageTest();
 
 	}
 

@@ -5,7 +5,7 @@
 		<listener class-name="utils.SuitListner"></listener>
 	</listeners>
 	<test thread-count="5" name="TestwithChrome">
-		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="browser" value="edge"></parameter>
 		<classes>
 			<!-- <class name="testClassess.LoginTest" />-->
 			 <class name="testClassess.DashboardTest"/>
