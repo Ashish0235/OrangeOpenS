@@ -46,11 +46,13 @@ public class BaseTest {
 	public ExtentTest logger;
 	String date = new SimpleDateFormat("yyyy-MM-dd/hhmmss").format(new Date());
 	ReadConfig prop = new ReadConfig();
-	public Logger log;
+	public static Logger log;
 
-//	public WebDriver getDriver() {
-//		return driver;
-//	}
+
+	
+public WebDriver getDriver() {
+		return driver;
+	}
 
 	@BeforeTest
 	public void mainBeforeTestMethod() {

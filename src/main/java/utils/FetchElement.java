@@ -9,11 +9,9 @@ import base.BaseTest;
 
 public class FetchElement {
 
-	//private WebDriver driver;
-
 	public WebElement getWebElement(String locatorType, String locatorValue) {
 
-		switch (locatorType) {
+		switch (locatorType.toUpperCase()) {
 
 		case "XPATH":
 			return BaseTest.driver.findElement(By.xpath(locatorValue));
@@ -42,7 +40,7 @@ public class FetchElement {
 
 	public List<WebElement> getWebElements(String locatorType, String locatorValue) {
 
-		switch (locatorType) {
+		switch (locatorType.toUpperCase()) {
 
 		case "XPATH":
 			return BaseTest.driver.findElements(By.xpath(locatorValue));

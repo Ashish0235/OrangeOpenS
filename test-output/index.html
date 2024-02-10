@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testClassess.DashboardTest" class="method navigator-link" hash-for-method="DashboardEventsViewName">DashboardEventsViewName</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testClassess.PunchInPunchOut_Test" class="method navigator-link" hash-for-method="InAndOutPunch">InAndOutPunch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testClassess.DashboardTest</span>
+              <span class="class-name">testClassess.PunchInPunchOut_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DashboardEventsViewName">
-                  </a> <!-- DashboardEventsViewName -->
-                  <span class="method-name">DashboardEventsViewName</span>
+                  <a name="InAndOutPunch">
+                  </a> <!-- InAndOutPunch -->
+                  <span class="method-name">InAndOutPunch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,10 +146,10 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utils.SuitListner&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;TestwithChrome&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;TestwithChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testClassess.DashboardTest&quot;/&gt;
+      &lt;class name=&quot;testClassess.PunchInPunchOut_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestwithChrome --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -191,14 +191,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'DashboardEventsViewName')
-data.setCell(0, 2, 'testClassess.DashboardTest')
-data.setCell(0, 3, 1130);
+data.setCell(0, 1, 'InAndOutPunch')
+data.setCell(0, 2, 'testClassess.PunchInPunchOut_Test')
+data.setCell(0, 3, 6036);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -224,26 +224,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testClassess.DashboardTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testClassess.PunchInPunchOut_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">mainBeforeTestMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setup(edge, public void testClassess.DashboardTest.DashboardEventsViewName())</span>
-                <span class="method-start">174 ms</span>
+                <span class="method-name">setup(chrome, public void testClassess.PunchInPunchOut_Test.InAndOutPunch() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">273 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">DashboardEventsViewName</span>
-                <span class="method-start">10285 ms</span>
+                <span class="method-name">InAndOutPunch</span>
+                <span class="method-start">12464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=DashboardEventsViewName status=SUCCESS method=DashboardTest.DashboardEventsViewName...)</span>
-                <span class="method-start">11418 ms</span>
+                <span class="method-name">tearDown([TestResult name=InAndOutPunch status=SUCCESS method=PunchInPunchOut_Test.InAndOutPunch()[pri:0, ins...)</span>
+                <span class="method-start">18502 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">14453 ms</span>
+                <span class="method-start">22220 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

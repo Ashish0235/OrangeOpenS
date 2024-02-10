@@ -5,17 +5,17 @@
     <listener class-name="utils.SuitListner"/>
   </listeners>
   <test thread-count="5" name="TestwithChrome(failed)">
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testClassess.DashboardTest">
+      <class name="testClassess.PunchInPunchOut_Test">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="afterTest"/>
+          <include name="InAndOutPunch"/>
           <include name="mainBeforeTestMethod"/>
-          <include name="DashboardEventsViewName"/>
         </methods>
-      </class> <!-- testClassess.DashboardTest -->
+      </class> <!-- testClassess.PunchInPunchOut_Test -->
     </classes>
   </test> <!-- TestwithChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

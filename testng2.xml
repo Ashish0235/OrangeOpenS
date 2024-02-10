@@ -4,13 +4,21 @@
 	<listeners>
 		<listener class-name="utils.SuitListner"></listener>
 	</listeners>
-	<test thread-count="3" name="TestwithChrome">
-		<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<test thread-count="3" name="TestwithChrome1">
+
 		<classes>
-
-			<class name="testClassess.PunchInPunchOut_Test" />
-
+			<class name="testClassess.Dashboard_Test" />
+			
 		</classes>
-	</test>
+		
+	</test> 
+	<test thread-count="3" name="TestwithChrome2">
 
-</suite>
+		<classes>
+			<class name="testClassess.PunchInPunchOut_Test" />
+		</classes>
+		
+	</test> 
+
+</suite> 

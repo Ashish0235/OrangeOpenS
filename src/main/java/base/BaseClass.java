@@ -22,9 +22,9 @@ public class BaseClass {
 	ReadConfig prop = new ReadConfig();
 	public static Logger log;
 
-	public WebDriver getDriver() {
-		return driver;
-	}
+	/*
+	 * public WebDriver getDriver() { return driver; }
+	 */
 
 	@BeforeMethod
 	public void setup() {

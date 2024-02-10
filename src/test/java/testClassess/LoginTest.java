@@ -9,6 +9,7 @@ import pageObjects.LoginPage;
 
 public class LoginTest extends BaseTest {
 
+
 	@Test
 
 	public void login() {
