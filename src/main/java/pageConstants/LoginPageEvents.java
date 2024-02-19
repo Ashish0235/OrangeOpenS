@@ -2,10 +2,10 @@ package pageConstants;
 
 public interface LoginPageEvents {
 	
-	String userName = "input[placeholder='Username']"; // CSS 
-	String password = "input[placeholder='Password']"; // CSS 
-	String loginButton = "//button[text()=' Login ']"; // XPATH
-	String dashboard = "//h6[normalize-space()=\"Dashboard\"]"; // XPATH
+	String userNameCss = "input[placeholder='Username']";
+	String passwordCss = "input[placeholder='Password']";
+	String loginButtonXpath = "//button[text()=' Login ']";
+	String dashboardXpath = "//h6[normalize-space()=\"Dashboard\"]";
 	
 
 }

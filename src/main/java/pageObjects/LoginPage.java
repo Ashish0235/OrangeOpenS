@@ -7,15 +7,32 @@ import utils.FetchElement;
 
 public class LoginPage extends BaseTest implements LoginPageEvents {
 
-	ReadConfig prop = new ReadConfig();
-	FetchElement ele = new FetchElement();
+    private final ReadConfig configReader;
+    private final FetchElement elementFetcher;
 
-	public void loginpageTest() {
+    public LoginPage() {
+        this.configReader = new ReadConfig();
+        this.elementFetcher = new FetchElement();
+    }
 
-		ele.getWebElement("CSS", userName).sendKeys(prop.getUsername());
-		ele.getWebElement("CSS", password).sendKeys(prop.getPassword());
-		ele.getWebElement("XPATH", loginButton).click();
+    public void login() {
+        enterUsername(configReader.getUsername());
+        enterPassword(configReader.getPassword());
+        clickLoginButton();
+    }
 
-	}
+    private void enterUsername(String username) {
+        elementFetcher.getWebElement("CSS", userNameCss).sendKeys(username);
+        log.info("Entered username");
+    }
 
+    private void enterPassword(String password) {
+        elementFetcher.getWebElement("CSS", passwordCss).sendKeys(password);
+        log.info("Entered password");
+    }
+
+    private void clickLoginButton() {
+        elementFetcher.getWebElement("XPATH", loginButtonXpath).click();
+        log.info("Clicked on the login button");
+    }
 }

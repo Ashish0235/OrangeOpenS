@@ -8,8 +8,8 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 
-			<class name="testClassess.PunchInPunchOut_Test" />
-
+			<class name="testClassess.Logout_Test" />
+			
 		</classes>
 	</test>
 

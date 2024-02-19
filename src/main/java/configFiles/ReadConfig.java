@@ -27,15 +27,13 @@ public class ReadConfig {
 		}
 	}
 
-	public String getBroserName() {
-
-		String browserName = property.getProperty("browser");
-		if(browserName!=null) {
-			return browserName;
-		}
-		else 
-			throw new RuntimeException("Browser name not specified in configuration file");
-	}
+	
+	  public String getBroserName() {
+	  
+	  String browserName = property.getProperty("browser"); if(browserName!=null) {
+	  return browserName; } else throw new
+	  RuntimeException("Browser name not specified in configuration file"); }
+	 
 
 	public String getBaseUrl() {
 

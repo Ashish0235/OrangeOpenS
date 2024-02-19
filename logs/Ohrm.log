@@ -1,196 +1,102 @@
-11:32:42.624 [main]INFO  Orange-HRM - Edge browser launched
-11:32:48.785 [main]INFO  Orange-HRM - ---------Login Test started----------
-11:32:49.257 [main]INFO  Orange-HRM - Entered username
-11:32:49.370 [main]INFO  Orange-HRM - Entered password
-11:32:50.693 [main]INFO  Orange-HRM - Login successful
-11:32:50.693 [main]INFO  Orange-HRM - ---------Login Test Ended----------
-22:56:26.384 [main]INFO  Orange-HRM - Edge browser launched
-22:56:31.483 [main]INFO  Orange-HRM - ---------Login Test started----------
-22:56:32.098 [main]INFO  Orange-HRM - Entered username
-22:56:32.240 [main]INFO  Orange-HRM - Entered password
-22:56:33.762 [main]INFO  Orange-HRM - Login successful
-22:56:33.762 [main]INFO  Orange-HRM - ---------Login Test Ended----------
-00:23:40.114 [main]INFO  Orange-HRM - Edge browser launched
-00:38:43.910 [main]INFO  Orange-HRM - Edge browser launched
-00:39:26.386 [main]INFO  Orange-HRM - Edge browser launched
-11:27:06.932 [main]INFO  Orange-HRM - Edge browser launched
-11:30:26.616 [main]INFO  Orange-HRM - Chrome browser launched
-11:33:02.837 [main]INFO  Orange-HRM - Chrome browser launched
-13:36:42.405 [main]INFO  Orange-HRM - Chrome browser launched
-13:36:55.377 [main]INFO  Orange-HRM - Chrome browser launched
-13:44:38.542 [main]INFO  Orange-HRM - Chrome browser launched
-13:44:50.568 [main]INFO  Orange-HRM - Chrome browser launched
-13:45:51.339 [main]INFO  Orange-HRM - Chrome browser launched
-13:53:04.995 [main]INFO  Orange-HRM - Chrome browser launched
-13:55:06.386 [main]INFO  Orange-HRM - Chrome browser launched
-13:56:56.216 [main]INFO  Orange-HRM - Chrome browser launched
-14:07:45.134 [main]INFO  Orange-HRM - Chrome browser launched
-14:09:41.935 [main]INFO  Orange-HRM - Chrome browser launched
-14:10:50.596 [main]INFO  Orange-HRM - Chrome browser launched
-14:12:21.091 [main]INFO  Orange-HRM - Chrome browser launched
-14:13:11.372 [main]INFO  Orange-HRM - Chrome browser launched
-14:16:22.314 [main]INFO  Orange-HRM - Chrome browser launched
-14:18:19.489 [main]INFO  Orange-HRM - Chrome browser launched
-14:19:25.983 [main]INFO  Orange-HRM - Edge browser launched
-14:27:15.408 [main]INFO  Orange-HRM - Edge browser launched
-14:28:15.389 [main]INFO  Orange-HRM - Edge browser launched
-14:28:48.176 [main]INFO  Orange-HRM - Edge browser launched
-14:36:20.248 [main]INFO  Orange-HRM - Edge browser launched
-14:36:49.366 [main]INFO  Orange-HRM - Edge browser launched
-14:42:45.786 [main]INFO  Orange-HRM - Edge browser launched
-14:47:33.610 [main]INFO  Orange-HRM - Edge browser launched
-14:49:20.022 [main]INFO  Orange-HRM - Edge browser launched
-14:57:52.955 [main]INFO  Orange-HRM - Edge browser launched
-15:00:36.885 [main]INFO  Orange-HRM - Edge browser launched
-15:03:07.910 [main]INFO  Orange-HRM - Edge browser launched
-15:05:25.794 [main]INFO  Orange-HRM - Edge browser launched
-15:08:39.129 [main]INFO  Orange-HRM - Edge browser launched
-15:10:23.694 [main]INFO  Orange-HRM - Edge browser launched
-15:13:37.874 [main]INFO  Orange-HRM - Edge browser launched
-15:16:35.066 [main]INFO  Orange-HRM - Edge browser launched
-15:18:13.147 [main]INFO  Orange-HRM - Edge browser launched
-15:23:48.057 [main]INFO  Orange-HRM - Edge browser launched
-16:39:33.704 [main]INFO  Orange-HRM - Chrome browser launched
-16:40:21.186 [main]INFO  Orange-HRM - Chrome browser launched
-16:40:37.399 [main]INFO  Orange-HRM - Edge browser launched
-17:13:48.724 [main]INFO  Orange-HRM - Chrome browser launched
-17:19:35.113 [main]INFO  Orange-HRM - Chrome browser launched
-17:20:32.345 [main]INFO  Orange-HRM - Chrome browser launched
-17:22:27.858 [main]INFO  Orange-HRM - Chrome browser launched
-17:24:52.000 [main]INFO  Orange-HRM - Chrome browser launched
-17:25:35.030 [main]INFO  Orange-HRM - Chrome browser launched
-22:36:49.992 [main]INFO  Orange-HRM - Chrome browser launched
-22:40:25.333 [main]INFO  Orange-HRM - Chrome browser launched
-22:41:50.162 [main]INFO  Orange-HRM - Chrome browser launched
-23:35:17.208 [main]INFO  Orange-HRM - Chrome browser launched
-23:36:01.181 [main]INFO  Orange-HRM - Chrome browser launched
-23:38:24.063 [main]INFO  Orange-HRM - Chrome browser launched
-23:38:38.277 [main]INFO  Orange-HRM - Chrome browser launched
-23:43:39.060 [main]INFO  Orange-HRM - Chrome browser launched
-23:43:54.255 [main]INFO  Orange-HRM - Chrome browser launched
-23:49:30.446 [main]INFO  Orange-HRM - Chrome browser launched
-23:51:16.094 [main]INFO  Orange-HRM - Chrome browser launched
-07:08:38.754 [main]INFO  Orange-HRM - Chrome browser launched
-07:14:15.545 [main]INFO  Orange-HRM - Chrome browser launched
-07:18:47.410 [main]INFO  Orange-HRM - Chrome browser launched
-09:38:33.871 [main]INFO  Orange-HRM - Chrome browser launched
-09:39:53.462 [main]INFO  Orange-HRM - Chrome browser launched
-09:40:35.265 [main]INFO  Orange-HRM - Chrome browser launched
-09:42:10.292 [main]INFO  Orange-HRM - Chrome browser launched
-09:44:08.329 [main]INFO  Orange-HRM - Chrome browser launched
-21:03:52.979 [main]INFO  Orange-HRM - Edge browser launched
-21:13:12.949 [main]INFO  Orange-HRM - Edge browser launched
-23:37:02.326 [main]INFO  Orange-HRM - Edge browser launched
-23:44:19.809 [main]INFO  Orange-HRM - Edge browser launched
-23:45:32.946 [main]INFO  Orange-HRM - Edge browser launched
-23:47:19.734 [main]INFO  Orange-HRM - Edge browser launched
-23:49:55.689 [main]INFO  Orange-HRM - Edge browser launched
-23:57:23.095 [main]INFO  Orange-HRM - Edge browser launched
-00:09:52.336 [main]INFO  Orange-HRM - Edge browser launched
-00:10:38.908 [main]INFO  Orange-HRM - Edge browser launched
-00:18:42.760 [main]INFO  Orange-HRM - Edge browser launched
-00:31:23.287 [main]INFO  Orange-HRM - Edge browser launched
-00:32:30.642 [main]INFO  Orange-HRM - Edge browser launched
-00:39:44.990 [main]INFO  Orange-HRM - Edge browser launched
-00:40:59.566 [main]INFO  Orange-HRM - Edge browser launched
-00:43:03.018 [main]INFO  Orange-HRM - Edge browser launched
-00:54:35.509 [main]INFO  Orange-HRM - Edge browser launched
-01:01:22.941 [main]INFO  Orange-HRM - Edge browser launched
-01:03:54.064 [main]INFO  Orange-HRM - Edge browser launched
-01:08:09.727 [main]INFO  Orange-HRM - Edge browser launched
-01:12:24.525 [main]INFO  Orange-HRM - Edge browser launched
-01:14:46.081 [main]INFO  Orange-HRM - Edge browser launched
-09:23:08.696 [main]INFO  Orange-HRM - Chrome browser launched
-09:31:23.819 [main]INFO  Orange-HRM - Chrome browser launched
-15:01:30.811 [main]INFO  Orange-HRM - Chrome browser launched
-15:02:32.308 [main]INFO  Orange-HRM - Chrome browser launched
-15:04:13.441 [main]INFO  Orange-HRM - Chrome browser launched
-15:05:25.607 [main]INFO  Orange-HRM - Chrome browser launched
-15:30:38.240 [main]INFO  Orange-HRM - Chrome browser launched
-15:41:15.768 [main]INFO  Orange-HRM - Chrome browser launched
-15:50:19.275 [main]INFO  Orange-HRM - Chrome browser launched
-15:52:38.361 [main]INFO  Orange-HRM - Chrome browser launched
-15:54:50.276 [main]INFO  Orange-HRM - Chrome browser launched
-15:57:19.963 [main]INFO  Orange-HRM - Chrome browser launched
-15:57:30.140 [main]INFO  Orange-HRM - Chrome browser launched
-16:01:49.474 [main]INFO  Orange-HRM - Chrome browser launched
-16:06:40.848 [main]INFO  Orange-HRM - Chrome browser launched
-16:07:38.507 [main]INFO  Orange-HRM - Chrome browser launched
-16:10:53.070 [main]INFO  Orange-HRM - Chrome browser launched
-16:13:28.749 [main]INFO  Orange-HRM - Chrome browser launched
-16:15:23.069 [main]INFO  Orange-HRM - Chrome browser launched
-16:24:20.443 [main]INFO  Orange-HRM - Chrome browser launched
-16:25:53.921 [main]INFO  Orange-HRM - Chrome browser launched
-12:52:36.895 [main]INFO  Orange-HRM - Edge browser launched
-19:00:36.057 [main]INFO  Orange-HRM - Chrome browser launched
-19:38:18.906 [main]INFO  Orange-HRM - Chrome browser launched
-19:42:46.564 [main]INFO  Orange-HRM - Chrome browser launched
-19:45:35.404 [main]INFO  Orange-HRM - Chrome browser launched
-19:46:34.163 [main]INFO  Orange-HRM - Chrome browser launched
-19:49:55.559 [main]INFO  Orange-HRM - Chrome browser launched
-19:50:53.762 [main]INFO  Orange-HRM - Chrome browser launched
-20:32:09.691 [main]INFO  Orange-HRM - Chrome browser launched
-20:35:15.501 [main]INFO  Orange-HRM - Chrome browser launched
-20:44:25.643 [main]INFO  Orange-HRM - Chrome browser launched
-20:47:35.789 [main]INFO  Orange-HRM - Chrome browser launched
-00:21:26.335 [main]INFO  Orange-HRM - Chrome browser launched
-00:25:06.110 [main]INFO  Orange-HRM - Chrome browser launched
-01:20:19.038 [main]INFO  Orange-HRM - Chrome browser launched
-01:32:38.172 [main]INFO  Orange-HRM - Chrome browser launched
-01:34:47.187 [main]INFO  Orange-HRM - Chrome browser launched
-02:14:14.010 [main]INFO  Orange-HRM - Chrome browser launched
-02:35:00.590 [main]INFO  Orange-HRM - Chrome browser launched
-02:37:30.262 [main]INFO  Orange-HRM - Chrome browser launched
-02:38:38.076 [main]INFO  Orange-HRM - Chrome browser launched
-02:50:26.263 [main]INFO  Orange-HRM - Chrome browser launched
-02:51:45.164 [main]INFO  Orange-HRM - Chrome browser launched
-02:53:03.942 [main]INFO  Orange-HRM - Chrome browser launched
-02:54:37.258 [main]INFO  Orange-HRM - Chrome browser launched
-02:55:38.233 [main]INFO  Orange-HRM - Chrome browser launched
-02:57:50.124 [main]INFO  Orange-HRM - Chrome browser launched
-03:00:00.082 [main]INFO  Orange-HRM - Chrome browser launched
-03:02:42.760 [main]INFO  Orange-HRM - Chrome browser launched
-03:06:21.304 [main]INFO  Orange-HRM - Chrome browser launched
-03:13:40.734 [main]INFO  Orange-HRM - Chrome browser launched
-03:14:53.490 [main]INFO  Orange-HRM - Chrome browser launched
-03:18:20.207 [main]INFO  Orange-HRM - Chrome browser launched
-03:27:36.417 [main]INFO  Orange-HRM - Chrome browser launched
-03:30:14.792 [main]INFO  Orange-HRM - Chrome browser launched
-03:30:39.296 [main]INFO  Orange-HRM - Chrome browser launched
-03:31:52.215 [main]INFO  Orange-HRM - Chrome browser launched
-03:32:14.771 [main]INFO  Orange-HRM - Chrome browser launched
-03:33:19.179 [main]INFO  Orange-HRM - Chrome browser launched
-03:34:33.522 [main]INFO  Orange-HRM - Chrome browser launched
-03:36:09.272 [main]INFO  Orange-HRM - Chrome browser launched
-16:54:10.308 [main]INFO  Orange-HRM - Chrome browser launched
-16:54:30.660 [main]INFO  Orange-HRM - Chrome browser launched
-22:30:52.190 [main]INFO  Orange-HRM - Chrome browser launched
-22:34:43.371 [main]INFO  Orange-HRM - Chrome browser launched
-22:57:04.971 [main]INFO  Orange-HRM - Chrome browser launched
-23:01:02.257 [main]INFO  Orange-HRM - Chrome browser launched
-23:03:45.587 [main]INFO  Orange-HRM - Chrome browser launched
-23:05:13.984 [main]INFO  Orange-HRM - Chrome browser launched
-23:06:23.028 [main]INFO  Orange-HRM - Chrome browser launched
-23:06:39.559 [main]INFO  Orange-HRM - Chrome browser launched
-00:11:15.700 [main]INFO  Orange-HRM - Chrome browser launched
-00:32:39.738 [main]INFO  Orange-HRM - Chrome browser launched
-00:36:57.717 [main]INFO  Orange-HRM - Chrome browser launched
-00:37:07.727 [main]INFO  Orange-HRM - Current time is Punched In: Feb 6th at 10:13 AM (GMT 5.5)
-00:37:12.507 [main]INFO  Orange-HRM - clock button visible and clicked
-00:37:13.153 [main]INFO  Orange-HRM - Note info pasted in the note field
-00:37:13.691 [main]INFO  Orange-HRM - Assert passed:- Button visible and clickable
-00:39:49.928 [main]INFO  Orange-HRM - Chrome browser launched
-00:39:57.807 [main]INFO  Orange-HRM - Current time is Punched In: Feb 6th at 10:13 AM (GMT 5.5)
-00:39:58.947 [main]INFO  Orange-HRM - clock button visible and clicked
-00:39:59.565 [main]INFO  Orange-HRM - Note info pasted in the note field
-00:40:00.101 [main]INFO  Orange-HRM - Assert passed:- Button visible and clickable
-00:40:46.098 [main]INFO  Orange-HRM - Chrome browser launched
-00:40:52.035 [main]INFO  Orange-HRM - Current time is Punched In: Feb 6th at 10:13 AM (GMT 5.5)
-00:40:53.205 [main]INFO  Orange-HRM - clock button visible and clicked
-00:40:53.736 [main]INFO  Orange-HRM - Note info pasted in the note field
-00:42:14.155 [main]INFO  Orange-HRM - Chrome browser launched
-00:42:20.359 [main]INFO  Orange-HRM - Current time is Punched In: Feb 6th at 10:13 AM (GMT 5.5)
-00:42:21.542 [main]INFO  Orange-HRM - clock button visible and clicked
-00:42:22.296 [main]INFO  Orange-HRM - Note info pasted in the note field
-00:42:23.376 [main]INFO  Orange-HRM - Assert passed:- Button visible and clickable
-00:42:25.502 [main]INFO  Orange-HRM - Current time is Punched In: Feb 6th at 10:13 AM (GMT 5.5)
+15:41:49.189 [main]INFO  Orange-HRM - Chrome browser launched
+15:41:58.275 [main]INFO  Orange-HRM - Chrome browser launched
+15:42:40.431 [main]INFO  Orange-HRM - Chrome browser launched
+15:44:13.910 [main]INFO  Orange-HRM - Chrome browser launched
+15:44:17.820 [main]INFO  Orange-HRM - Entered username
+15:44:17.883 [main]INFO  Orange-HRM - Entered password
+15:44:19.251 [main]INFO  Orange-HRM - Clicked on the login button
+15:48:56.706 [main]INFO  Orange-HRM - Chrome browser launched
+15:49:03.249 [main]INFO  Orange-HRM - Entered username
+15:49:03.325 [main]INFO  Orange-HRM - Entered password
+15:49:03.388 [main]INFO  Orange-HRM - Clicked on the login button
+15:52:16.385 [main]INFO  Orange-HRM - Chrome browser launched
+15:52:20.578 [main]INFO  Orange-HRM - Entered username
+15:52:20.638 [main]INFO  Orange-HRM - Entered password
+15:52:21.889 [main]INFO  Orange-HRM - Clicked on the login button
+15:53:55.653 [main]INFO  Orange-HRM - Chrome browser launched
+15:53:59.713 [main]INFO  Orange-HRM - Entered username
+15:53:59.792 [main]INFO  Orange-HRM - Entered password
+15:54:01.091 [main]INFO  Orange-HRM - Clicked on the login button
+15:54:01.779 [main]INFO  Orange-HRM - Clicked on the profile button
+15:54:02.899 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+16:56:41.536 [main]INFO  Orange-HRM - Chrome browser launched
+16:56:46.298 [main]INFO  Orange-HRM - Entered username
+16:56:46.401 [main]INFO  Orange-HRM - Entered password
+16:56:47.565 [main]INFO  Orange-HRM - Clicked on the login button
+16:59:16.409 [main]INFO  Orange-HRM - Chrome browser launched
+16:59:24.306 [main]INFO  Orange-HRM - Entered username
+16:59:24.436 [main]INFO  Orange-HRM - Entered password
+16:59:25.615 [main]INFO  Orange-HRM - Clicked on the login button
+17:10:05.663 [main]INFO  Orange-HRM - Chrome browser launched
+17:10:09.736 [main]INFO  Orange-HRM - Entered username
+17:10:09.866 [main]INFO  Orange-HRM - Entered password
+17:10:11.870 [main]INFO  Orange-HRM - Clicked on the login button
+17:10:27.597 [main]INFO  Orange-HRM - Chrome browser launched
+17:10:31.081 [main]INFO  Orange-HRM - Entered username
+17:10:31.215 [main]INFO  Orange-HRM - Entered password
+17:10:32.503 [main]INFO  Orange-HRM - Clicked on the login button
+17:10:32.989 [main]INFO  Orange-HRM - Clicked on the profile button
+17:10:33.964 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+17:16:08.668 [main]INFO  Orange-HRM - Chrome browser launched
+17:16:12.362 [main]INFO  Orange-HRM - Entered username
+17:16:12.491 [main]INFO  Orange-HRM - Entered password
+17:16:13.809 [main]INFO  Orange-HRM - Clicked on the login button
+17:16:14.293 [main]INFO  Orange-HRM - Clicked on the profile button
+17:16:14.977 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+17:45:09.720 [main]INFO  Orange-HRM - Chrome browser launched
+17:45:39.239 [main]INFO  Orange-HRM - Chrome browser launched
+17:45:50.512 [main]INFO  Orange-HRM - Chrome browser launched
+23:18:50.790 [main]INFO  Orange-HRM - Chrome browser launched
+23:19:51.065 [main]INFO  Orange-HRM - Chrome browser launched
+23:23:28.715 [main]INFO  Orange-HRM - Chrome browser launched
+23:28:40.689 [main]INFO  Orange-HRM - Chrome browser launched
+23:28:44.350 [main]INFO  Orange-HRM - Entered username
+23:28:44.446 [main]INFO  Orange-HRM - Entered password
+23:28:45.855 [main]INFO  Orange-HRM - Clicked on the login button
+23:28:46.434 [main]INFO  Orange-HRM - Clicked on the profile button
+23:28:47.228 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+23:32:12.130 [main]INFO  Orange-HRM - Chrome browser launched
+23:32:16.115 [main]INFO  Orange-HRM - Entered username
+23:32:16.203 [main]INFO  Orange-HRM - Entered password
+23:32:17.643 [main]INFO  Orange-HRM - Clicked on the login button
+23:32:18.157 [main]INFO  Orange-HRM - Clicked on the profile button
+23:32:18.860 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+23:36:01.913 [main]INFO  Orange-HRM - Chrome browser launched
+23:36:05.545 [main]INFO  Orange-HRM - Entered username
+23:36:05.622 [main]INFO  Orange-HRM - Entered password
+23:36:06.952 [main]INFO  Orange-HRM - Clicked on the login button
+23:36:21.400 [main]INFO  Orange-HRM - Chrome browser launched
+23:36:25.383 [main]INFO  Orange-HRM - Entered username
+23:36:25.478 [main]INFO  Orange-HRM - Entered password
+23:36:26.796 [main]INFO  Orange-HRM - Clicked on the login button
+23:36:27.227 [main]INFO  Orange-HRM - Clicked on the profile button
+23:36:28.202 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+23:45:00.547 [main]INFO  Orange-HRM - Chrome browser launched
+23:45:04.560 [main]INFO  Orange-HRM - Entered username
+23:45:04.650 [main]INFO  Orange-HRM - Entered password
+23:45:06.390 [main]INFO  Orange-HRM - Clicked on the login button
+23:45:17.175 [main]INFO  Orange-HRM - Chrome browser launched
+23:45:23.067 [main]INFO  Orange-HRM - Entered username
+23:45:23.183 [main]INFO  Orange-HRM - Entered password
+23:45:24.537 [main]INFO  Orange-HRM - Clicked on the login button
+23:45:25.014 [main]INFO  Orange-HRM - Clicked on the profile button
+23:45:25.794 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+22:38:48.011 [main]INFO  Orange-HRM - Chrome browser launched
+22:39:25.985 [main]INFO  Orange-HRM - Entered username
+22:39:26.050 [main]INFO  Orange-HRM - Entered password
+22:39:27.268 [main]INFO  Orange-HRM - Clicked on the login button
+22:39:44.283 [main]INFO  Orange-HRM - Clicked on the profile button
+22:39:45.214 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+14:53:01.703 [main]INFO  Orange-HRM - Chrome browser launched
+14:53:17.148 [main]INFO  Orange-HRM - Entered username
+14:53:17.202 [main]INFO  Orange-HRM - Entered password
+14:53:17.272 [main]INFO  Orange-HRM - Clicked on the login button
+14:54:00.761 [main]INFO  Orange-HRM - Chrome browser launched
+14:54:05.795 [main]INFO  Orange-HRM - Entered username
+14:54:05.926 [main]INFO  Orange-HRM - Entered password
+14:54:07.294 [main]INFO  Orange-HRM - Clicked on the login button
+14:54:07.870 [main]INFO  Orange-HRM - Clicked on the profile button
+14:54:07.871 [main]INFO  Orange-HRM - Dropdown list opened
+14:54:08.356 [main]INFO  Orange-HRM - Retrieved 4 dropdown items
+14:54:08.683 [main]INFO  Orange-HRM - Dropdown option selected: Logout
+14:54:09.527 [main]INFO  Orange-HRM - User successfully logged out and landed on the Login page

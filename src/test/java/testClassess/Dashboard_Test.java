@@ -13,47 +13,49 @@ import pageObjects.Dashboard_Page;
 
 public class Dashboard_Test extends BaseTest implements DashboardPageEvents {
 
-	Dashboard_Page dash = new Dashboard_Page();
+	Dashboard_Page dashboardPage = new Dashboard_Page();
 
 	@Test
-	public void DashboardEventsViewName() throws InterruptedException {
-		
-		dash.DashboardEventsView();
-		List<WebElement> tabs = dash.DashboardEventsView();
-		for (WebElement inputElement : tabs) {
-			System.out.println(inputElement.getText());
-			if (inputElement.getText().equalsIgnoreCase(headerName));
-			String hText = inputElement.getText();
-			Assert.assertEquals(hName, hText);
-			break;
+	public void testDashboardEvents() throws InterruptedException {
+		// Verify Dashboard Events view
+		List<WebElement> tabs = dashboardPage.getDashboardEvents();
+		Assert.assertFalse(tabs.isEmpty(), "Dashboard events are not displayed");
 
+		// Verify Header Name
+		for (WebElement tab : tabs) {
+			String headerText = tab.getText().trim();
+			Assert.assertEquals(headerText, headerName, "Header name doesn't match");
+			break; // Assuming only the first tab header needs to be checked
 		}
-			
-		String time = dash.timeOfWorkDetails();
-		String totalTime = dash.totalTime();
-		List<WebElement> links = dash.myActionDetails();
 
-		logger.info("Assertion checked");
-		logger.info("Time of login/logout: " + time);
-		//logger.info("Time of login/logout: " + time.subSequence(11, 38));
+		// Get time of work details and total time
+		String timeOfWorkDetails = dashboardPage.getTimeOfWorkDetails();
+		String totalTime = dashboardPage.getTotalTime();
+		logger.info("Time of login/logout: " + timeOfWorkDetails);
 		logger.info("Total time of the day: " + totalTime);
-		for (WebElement aName : links) {
-			logger.info("My Actions :" +aName.getText());
 
+		// Get My Action details
+		List<WebElement> myActionDetails = dashboardPage.getMyActionDetails();
+		logger.info("My Actions:");
+		for (WebElement action : myActionDetails) {
+			logger.info(action.getText());
 		}
-		List<WebElement> quicklinks = dash.quickLinks();
-		Actions hover = new Actions(driver);
-		for (WebElement webElement : quicklinks) {
-			logger.info("Quick links :" +webElement.getText());
-			hover.moveToElement(webElement).build().perform();
+
+		// Hover over Quick Links
+		List<WebElement> quickLinks = dashboardPage.getQuickLinks();
+		Actions actions = new Actions(driver);
+		for (WebElement link : quickLinks) {
+			actions.moveToElement(link).build().perform();
+			logger.info("Hovered over Quick Link: " + link.getText());
 			Thread.sleep(500);
 		}
 
-		logger.info("Latest Buzz post is:-" + dash.buzzLatestPost());
-		
-		logger.info("Employee on leave today : "+dash.noEmployeeOnLeaveToday());
-		
-		
-	}
+		// Get latest Buzz post
+		String latestBuzzPost = dashboardPage.getLatestBuzzPost();
+		logger.info("Latest Buzz post: " + latestBuzzPost);
 
+		// Check if any employee is on leave today
+		String employeeOnLeave = dashboardPage.getNoEmployeeOnLeaveMessage();
+		logger.info("Employee on leave today: " + employeeOnLeave);
+	}
 }

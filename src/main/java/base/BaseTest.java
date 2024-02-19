@@ -10,6 +10,7 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -48,9 +50,7 @@ public class BaseTest {
 	ReadConfig prop = new ReadConfig();
 	public static Logger log;
 
-
-	
-public WebDriver getDriver() {
+	public WebDriver getDriver() {
 		return driver;
 	}
 
@@ -90,15 +90,14 @@ public WebDriver getDriver() {
 		} else if (browser.equalsIgnoreCase("firefox")) {
 
 			FirefoxOptions options = new FirefoxOptions();
-
 			driver = new FirefoxDriver(options);
 			log.info("Firefox browser launched");
 		}
 
 		driver.navigate().to(prop.getBaseUrl());
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		LoginPage first = new LoginPage();
-		first.loginpageTest();
+		first.login();
 
 	}
 
@@ -108,9 +107,10 @@ public WebDriver getDriver() {
 			logger.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + "- Test Case Failed", ExtentColor.RED));
 			logger.log(Status.FAIL,
 					MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
+			onTestFailure(result);
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			logger.log(Status.SKIP,
-					MarkupHelper.createLabel(result.getName() + "- Test Test Case Skipped", ExtentColor.ORANGE));
+					MarkupHelper.createLabel(result.getName() + "- Test Case Skipped", ExtentColor.ORANGE));
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			logger.log(Status.PASS,
 					MarkupHelper.createLabel(result.getName() + " - Test Case PASS", ExtentColor.GREEN));
@@ -124,6 +124,23 @@ public WebDriver getDriver() {
 	public void afterTest() {
 
 		extent.flush();
+
+	}
+	
+	@AfterSuite
+	
+	public void extendReportFluss() {
+		extent.flush();
+	}
+
+	// Check the alert present or not
+
+	public void checkAlertPresent() {
+
+		Alert alert = driver.switchTo().alert();
+
+		System.out.println(alert.getText());
+		alert.accept();
 
 	}
 
@@ -152,6 +169,21 @@ public WebDriver getDriver() {
 		try {
 			FileUtils.copyFile(sourchPath, destinationPath);
 			System.out.println("Screenshot taken");
+		} catch (IOException e) {
+			System.out.println("File location not found");
+			e.printStackTrace();
+		}
+
+	}
+	public void onTestFailure(ITestResult result) {
+
+		String filename = System.getProperty("user.dir") + File.separator + "\\screenshots\\" + File.separator
+		        + result.getMethod().getMethodName();
+		TakesScreenshot screenshot = (TakesScreenshot) driver;
+		File sourchPath = screenshot.getScreenshotAs(OutputType.FILE);
+		File destinationPath = new File(filename + ".png");
+		try {
+			FileUtils.copyFile(sourchPath, destinationPath);
 		} catch (IOException e) {
 			System.out.println("File location not found");
 			e.printStackTrace();

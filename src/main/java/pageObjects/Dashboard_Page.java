@@ -4,83 +4,59 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 
+import base.BaseTest;
 import pageConstants.DashboardPageEvents;
 import utils.FetchElement;
 
-public class Dashboard_Page implements DashboardPageEvents {
+public class Dashboard_Page extends BaseTest implements DashboardPageEvents {
 
-	FetchElement ele = new FetchElement();
+    private final FetchElement fetchElement;
 
-	public List<WebElement> DashboardEventsView() {
-		
-		List<WebElement> tabs = ele.getWebElements("XPATH", listOfEvents);
+    public Dashboard_Page() {
+        this.fetchElement = new FetchElement();
+    }
 
-		if (tabs.size() != 0) {
-			System.out.println(ele.getWebElements("XPATH", listOfEvents).size() + " Elements found by xpath as tabs \n");
-			
-			for (WebElement inputElement : tabs) {
-				System.out.println(inputElement.getText());
+    public List<WebElement> getDashboardEvents() {
+        List<WebElement> tabs = fetchElement.getWebElements("XPATH", listOfEventsXpath);
+        printElements(tabs);
+        return tabs;
+    }
 
-			}
+    public String getTimeOfWorkDetails() {
+        return fetchElement.getWebElement("XPATH", punchTimeXpath).getText();
+    }
 
-		}
-		return tabs;
+    public String getTotalTime() {
+        return fetchElement.getWebElement("XPATH", fullTimeCheckXpath).getText();
+    }
 
-	}
+    public List<WebElement> getMyActionDetails() {
+        return fetchElement.getWebElements("XPATH", myActionXpath);
+    }
 
-	public String timeOfWorkDetails() {
+    public List<WebElement> getQuickLinks() {
+        return fetchElement.getWebElements("XPATH", quickLaunchXpath);
+    }
 
-		String time = ele.getWebElement("XPATH", punchTime).getText();
+    public String getLatestBuzzPost() {
+        return fetchElement.getWebElement("XPATH", buzzLatestPostsXpath).getText();
+    }
 
-		return time;
+    public WebElement getEmployeeOnLeaveToday() {
+        return fetchElement.getWebElement("XPATH", employeeOnLeaveXpath);
+    }
 
-	}
+    public String getNoEmployeeOnLeaveMessage() {
+        return fetchElement.getWebElement("CSS", noLeaveHistoryCss).getText();
+    }
 
-	public String totalTime() {
-
-		String tottime = ele.getWebElement("XPATH", fullTimeCheck).getText();
-		return tottime;
-
-	}
-
-	public List<WebElement> myActionDetails() {
-
-		List<WebElement> actNames = ele.getWebElements("XPATH", myAction);
-		
-		return actNames;
-
-	}
-	
-	//Fetching all the elements under the quick Lanuch tab
-	public List<WebElement> quickLinks() {
-		
-		List<WebElement> qLinks = ele.getWebElements("XPATH", quickLaunch);
-		return qLinks;
-
-	}
-
-	public String buzzLatestPost() {
-
-		String buzzPost = ele.getWebElement("XPATH", buzzLatestPosts).getText();
-		return buzzPost;
-
-	}
-
-	public WebElement employeeOnLeaveToday() {
-
-		WebElement leaveInfo = ele.getWebElement("XPATH", employeeOnLeave);
-
-		return leaveInfo;
-
-	}
-	
-	public String noEmployeeOnLeaveToday() {
-
-		String onLeave = ele.getWebElement("CSS", noLeaveHistory).getText();
-
-		return onLeave;
-
-	}
-
-
+    //Fetching all the options available in the List
+    private void printElements(List<WebElement> elements) {
+        if (!elements.isEmpty()) {
+            System.out.println(elements.size() + " Elements found by xpath as tabs \n");
+            for (WebElement element : elements) {
+                System.out.println("- "+element.getText());
+            }
+        }
+    }
 }
